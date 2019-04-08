@@ -1,0 +1,49 @@
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+  margin: .4rem 0;
+}
+
+.container {
+  width: 70vw;
+  max-height: 70vh;
+  margin: 10vh auto 0;
+}
+
+#movies-container {
+  width: 70vw;
+  max-height: 70vh;
+  border: 1px solid #555;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+.movie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 7px;
+}
+
+a {
+  color: black;
+}
+
+small, small a {
+  color: #808080;
+}
+
+.user-movie {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/*# sourceMappingURL=style.css.map */
